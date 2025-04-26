@@ -1,0 +1,11 @@
+{
+  "swapinventory.command.start.success": "Обмен инвентарями запущен! Интервал: %s секунд",
+  "swapinventory.command.start.failure.already_active": "Обмен уже запущен!",
+  "swapinventory.command.start.failure.not_enough_players": "Нужно как минимум 2 игрока для обмена инвентарями!",
+  "swapinventory.command.stop.success": "Обмен инвентарями остановлен!",
+  "swapinventory.command.stop.failure.not_active": "Обмен не был запущен!",
+  "swapinventory.command.interval.success": "Интервал обмена установлен на %s секунд",
+  "swapinventory.command.interval.failure": "Некорректное значение интервала!",
+  "swapinventory.bossbar.countdown": "До смены инвентаря: %s сек",
+  "swapinventory.message.swapped": "Ваши инвентари были заменены!"
+}

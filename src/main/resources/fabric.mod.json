@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "swapinventory",
+	"version": "${version}",
+	"name": "SwapInventory",
+	"description": "A mod that shuffles the inventory of two or more players once at a certain time.",
+	"authors": [
+		"ArisNight_",
+		"UlianaGhost"
+	],
+	"contact": {
+		"homepage": "https://boosty.to/arisghost",
+		"sources": "https://github.com/ArisNight/SwapInventory"
+	},
+	"license": "MIT license",
+	"icon": "assets/swapinventory/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nightium.SwapInventory"
+		]
+	},
+	"mixins": [
+		"swapinventory.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
